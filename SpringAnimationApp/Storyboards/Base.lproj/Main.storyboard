@@ -39,7 +39,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2E4-HV-kc9">
-                                <rect key="frame" x="176" y="416" width="41.333333333333343" height="20.333333333333314"/>
+                                <rect key="frame" x="32" y="416" width="41.333333333333343" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -48,13 +48,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="2E4-HV-kc9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0bj-5m-y41"/>
+                            <constraint firstItem="2E4-HV-kc9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="TUU-IG-L0q"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1hA-Va-QOw" secondAttribute="bottom" multiplier="10:9" id="ek9-QD-Hou"/>
                             <constraint firstItem="pMO-ze-YWK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fcc-4X-lKE"/>
                             <constraint firstItem="1hA-Va-QOw" firstAttribute="width" secondItem="pMO-ze-YWK" secondAttribute="width" id="kdS-Jy-QKy"/>
-                            <constraint firstItem="2E4-HV-kc9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mnI-nL-goG"/>
                             <constraint firstItem="1hA-Va-QOw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ogg-cM-3Ig"/>
                             <constraint firstItem="pMO-ze-YWK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="uD1-2z-gX5"/>
-                            <constraint firstItem="2E4-HV-kc9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vTX-LW-kss"/>
                         </constraints>
                     </view>
                     <connections>
