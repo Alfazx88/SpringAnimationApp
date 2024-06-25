@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		955F3E2D2C2AF41600256666 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955F3E2C2C2AF41600256666 /* Animation.swift */; };
+		955F3E2F2C2AF42100256666 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955F3E2E2C2AF42100256666 /* DataStore.swift */; };
 		9565AD372C24C8D2000B39AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9565AD362C24C8D2000B39AC /* AppDelegate.swift */; };
 		9565AD392C24C8D2000B39AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9565AD382C24C8D2000B39AC /* SceneDelegate.swift */; };
 		9565AD3B2C24C8D2000B39AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9565AD3A2C24C8D2000B39AC /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		955F3E2C2C2AF41600256666 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		955F3E2E2C2AF42100256666 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		9565AD332C24C8D2000B39AC /* SpringAnimationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringAnimationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9565AD362C24C8D2000B39AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9565AD382C24C8D2000B39AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 				9565AD362C24C8D2000B39AC /* AppDelegate.swift */,
 				9565AD382C24C8D2000B39AC /* SceneDelegate.swift */,
 				9565AD3A2C24C8D2000B39AC /* ViewController.swift */,
+				955F3E2C2C2AF41600256666 /* Animation.swift */,
+				955F3E2E2C2AF42100256666 /* DataStore.swift */,
 				9565AD3C2C24C8D2000B39AC /* Main.storyboard */,
 				9565AD3F2C24C8D4000B39AC /* Assets.xcassets */,
 				9565AD412C24C8D4000B39AC /* LaunchScreen.storyboard */,
@@ -149,6 +155,8 @@
 				9565AD3B2C24C8D2000B39AC /* ViewController.swift in Sources */,
 				9565AD372C24C8D2000B39AC /* AppDelegate.swift in Sources */,
 				9565AD392C24C8D2000B39AC /* SceneDelegate.swift in Sources */,
+				955F3E2F2C2AF42100256666 /* DataStore.swift in Sources */,
+				955F3E2D2C2AF41600256666 /* Animation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

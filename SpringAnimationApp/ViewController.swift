@@ -9,15 +9,33 @@ import UIKit
 import SpringAnimation
 
 final class ViewController: UIViewController {
-    @IBOutlet var SpringView: SpringView!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+    @IBOutlet var springAnimationView: SpringView!
+    @IBOutlet var animationInfoLabel: UILabel!
+    
+    private var animationPreset = Animation.getAnimation()
 
-    @IBAction func RunAnimationButton(_ sender: SpringButton) {
+    @IBAction func runAnimationButtonTapped(_ sender: UIButton) {
+        springAnimationView.animation = animationPreset.preset
+        springAnimationView.curve = animationPreset.curve
+        springAnimationView.force = animationPreset.force
+        springAnimationView.duration = animationPreset.duration
+        springAnimationView.delay = animationPreset.delay
+        springAnimationView.animate()
+        setInfoLabel()
+        animationPreset = Animation.getAnimation()
+        sender.setTitle("Run \(animationPreset.preset)", for: .normal)
     }
     
+    private func setInfoLabel() {
+        animationInfoLabel.text = 
+        """
+        preset: \(springAnimationView.animation)
+        curve: \(springAnimationView.curve)
+        force: \(springAnimationView.force)
+        duration: \(springAnimationView.duration)
+        delay: \(springAnimationView.delay)
+        """
+    }
 }
 
